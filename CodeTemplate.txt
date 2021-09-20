@@ -2,9 +2,8 @@ CODE TEMPLATE:
 //This is a single line comment (notes that won't be read as instructions to the computer).
 //Different syntax is used for comments depending on the language.
 
-//CHANGE ME: Pokemon Sword and Shield
-//CHANGE ME: Apollo Tardy
-
+//Pokemon Sword and Shield
+//Apollo Tardy
 
 if (Opponent is Ground-Type) {
     //Deal 0% damage;
