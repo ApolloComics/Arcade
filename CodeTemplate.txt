@@ -2,26 +2,39 @@ CODE TEMPLATE:
 //This is a single line comment (notes that won't be read as instructions to the computer).
 //Different syntax is used for comments depending on the language.
 
-//CHANGE ME: Add the title of your game
-//CHANGE ME: Add your first and last name 
+//CHANGE ME: Pokemon Sword and Shield
+//CHANGE ME: Apollo Tardy
 
 
-if (CHANGE ME: condition # 1) {
-    //Add event below
-} else {
-    //Add event below
+if (Opponent is Ground-Type) {
+    //Deal 0% damage;
+} else { if (Opponent is Flying-Type) or (Opponent is Water-Type){
+    //Deal 200% damage;
+} else { if (Opponent is Dragon-Type) or (Opponent is Grass-Type) or (Opponent is Electric-Type){
+    //Deal 50% Damage;
+} else { 
+    //Deal 100% Damage;
+}}
+}
 }
 
-if (CHANGE ME: condition # 2) {
-    //Add event below
+if (Enemy Attack is Ground-Type) {
+    //Take 200% Damage;
+} else { if (Enemy Attack is Electric-Type) or (Enemy Attack is Steel-Type) or (Enemy Attack is Flying-Type){
+    //Take 50% Damage;
 } else {
-    //Add event below
+    //Take 100% Damage;
+}
 }
 
-if (CHANGE ME: condition # 3) {
-    //Add event below
+if (Enemy Level > Level) {
+    //Continue Battle
 } else {
-    //Add event below
+    //End Battle
 }
 
-
+if (Enemy HP = 0){
+    //End Battle
+} else {
+    //Continue Battle
+}
